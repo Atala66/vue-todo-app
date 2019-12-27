@@ -1,0 +1,29 @@
+{
+    "name": "node-todo",
+    "version": "1.0.0",
+    "description": "Simple todo application.",
+    "main": "server.js",
+    "author": "Lucy Swan",
+    "scripts": {
+        "build": "webpack",
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "config": "^3.1.0",
+        "express": "^4.16.4",
+        "express-validator": "^5.3.1",
+        "mongoose": "^5.7.5",
+        "request": "^2.88.0",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "http-errors": "~1.6.3",
+        "jade": "~1.11.0",
+        "morgan": "~1.9.1"
+    },
+    "devDependencies": {
+        "concurrently": "^4.1.2",
+        "nodemon": "^1.19.4"
+    }
+}
